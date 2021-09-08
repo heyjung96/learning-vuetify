@@ -36,7 +36,7 @@
 |       Carousels        | v-carousels               | 슬라이드 형식으로 넘어가는 컴포넌트.                                                                                                                            |
 |                        | v-carousels-item          | 넘어가는 정보들 ex.이미지..                                                                                                                                     |
 |         Chips          | v-chip                    | 작은 정보들를 전달하는데 사용.                                                                                                                                  |
-|        Dialogs         | v-dialog                  | 사용자에게 특정 작업에 대해 알리고 중요한 정보를 결정 요구하거나 어러 작업을 포함 할 수 있음.                                                                   |
+|        Dialogs         | v-dialog                  | 유저에게 특정 작업에 대해 알리고 중요한 정보를 결정 요구하거나 어러 작업을 포함 할 수 있음.                                                                   |
 |        Dividers        | v-divider                 | 구분선                                                                                                                                                          |
 |   Expansions panels    | v-expansion-panels        | 아코디언같이 정보를 접을때 사용.                                                                                                                                |
 |                        | v-expansion-panel         | 패널 한 줄                                                                                                                                                      |
@@ -44,20 +44,20 @@
 |                        | v-expansion-panel-content | 패널 내용                                                                                                                                                       |
 |      **Footers**       | v-footer                  | 사이트내의 모든 페이지에서 엑세스되어야함. 일반 정보를 표시하는데 사용                                                                                          |
 |                        |                           |                                                                                                                                                                 |
-| Form inputs & controls |                           |
+| Form inputs & controls |||                            
 |     Autocompletes      | v-autocomplete            | 자동완성 기능                                                                                                                                                   |
 |       Checkboxes       | v-checkbox                | 체크박스                                                                                                                                                        |
 |                        | v-simple-checkbox         | 테이블용 간단한 체크박스                                                                                                                                        |
 |       Comboboxes       | v-combobox                | 검색으로 항목이 가능한 셀렉박스 st.                                                                                                                             |
 |      File inputs       | v-file-input              |                                                                                                                                                                 |
 |         Forms          | v-form                    | 유효성 검사를 쉽게 추가 할 수 있다는 장점이 있다.                                                                                                               |
-|         Inputs         | v-input                   | 사용자 지정 입력을 받기 위해 사용합니다.                                                                                                                        |
-|    Overflow Buttons    | v-overflow-btn            | 사용자가 목록에서 항목을 선택할 수 있는 기능을 제공하는 데 사용됩니다                                                                                           |
+|         Inputs         | v-input                   | 유저 지정 입력을 받기 위해 사용합니다.                                                                                                                        |
+|    Overflow Buttons    | v-overflow-btn            | 유저가 목록에서 항목을 선택할 수 있는 기능을 제공하는 데 사용됩니다                                                                                           |
 |     Radio Buttons      | v-radio-group             | 선택 가능한 목록들을 집합화                                                                                                                                     |
 |                        | v-radio                   | 선택 가능한 목록(단수)                                                                                                                                          |
 |     Range Sliders      | v-range-slider            | 범위를 설정하는 부분을 시각화.                                                                                                                                  |
 |        Sliders         | v-slider                  | 단일값을 설정하는 부분을 시각화                                                                                                                                 |
-|        Selects         | v-select                  | 옵션화한 목록에서 사용자가 선택해 정보를 수집.                                                                                                                  |
+|        Selects         | v-select                  | 옵션화한 목록에서 유저가 선택해 정보를 수집.                                                                                                                  |
 |        Swiches         | v-switch                  | 체크박스 on/off와 비슷한 기능이지만 미학적으로 다름. 고유한 값중에서 선택할 수 있음.                                                                            |
 |       Textareas        | v-textarea                | 장문의 텍스트 데이터를 수집하기 위함.                                                                                                                           |
 |      Text fileds       | v-text-field              | 비교적 짧은 텍스트를 수집하기 위함.                                                                                                                             |
@@ -80,20 +80,32 @@
 |         Menus          | v-menu                    |                                                                                                                                                                 |
 |   Navigation drawers   | v-navigation-drawer       | 주로 응용 프로그램의 페이지에 대한 링크를 보관하는 데 사용되기 때문에 vue-router와 함께 사용됨. </br> v-app의 바로 포함이 되어있음.                             |
 |        Overlays        | v-overlay                 | 특정 요소나 일부를 강조하기 위해 사용. ex) 알렛이 뜨면서 밑 바탕은 어두워지는 효과                                                                              |
-|       Pagination       | v-Aotocompletes           |                                                                                                                                                                 |
-|        Parallax        | v-Aotocompletes           |                                                                                                                                                                 |
+|       Pagination       | v-pagination              | 페이징을 위한 컴포넌트.                                                                                                                                         |
+|        Parallax        | v-parallax                |이미지가 창보다 느리게 스크롤되는 것처럼 보이게 하는 3D 효과를 만듭니다.                                                                                         |
 |        Pickers         | v-Aotocompletes           |                                                                                                                                                                 |
-|        Progress        | v-Aotocompletes           |                                                                                                                                                                 |
-|         Sheets         | v-Aotocompletes           |                                                                                                                                                                 |
-|    Skeleton loaders    | v-Aotocompletes           |                                                                                                                                                                 |
-|       Snackbars        | v-Aotocompletes           |                                                                                                                                                                 |
-|       Sparklines       | v-Aotocompletes           |                                                                                                                                                                 |
-|        Steppers        | v-Aotocompletes           |                                                                                                                                                                 |
-|       Subheaders       | v-Aotocompletes           |                                                                                                                                                                 |
+|        Progress        | v-progress-circular       | 로딩중을 나타내거나 입력게이지를 나타낼 때 주로 사용함.                                                                                                         |
+|                        | v-progress-inner          | 파일 업로드같은 로딩을 나타낼때 주로 사용함.                                                                                                                    |
+|       Ratings          | v-rating                  | 별점과 같은 평가적 요소를 나타낼 때 사용함.                                                                                                                     |
+|     **Sheets**         | v-sheet                   | v-card, v-toolbar와 같은 컴포넌트의 기초가 되는 컴포넌트. 반응형도 제공한다.                                                                                    |
+|    Skeleton loaders    | v-skeleton-loader         | 유저에게 데이터가 존재는 하지만 아직 사용할 수 없다는 표시를 제공합니다.                                                                                        |
+|       Snackbars        | v-snackbar                | 유저에게 빠르게 메세지를 보이기 위해서 사용됨. 위치 지정, 제거 지연 및 콜백을 지원함.                                                                           |
+|       Sparklines       | v-sparkline               | 간단한 그래프같은 작업을 위해 사용. 곡선이나 면으로 표현되기도함.                                                                                               |
+|        Steppers        | v-stepper                 |  지정된 단계를 통해 진행상홍을 표시함. ex) 회원가입의 단계표시                                                                                                  |
+|                        | v-stepper-header          | 지정된 단계의 제목과 순서를 감싸는 api                                                                                                                          |
+|                        | v-stepper-step            | 지정된 단계의 제목과 순서를 지정하는 api                                                                                                                        |
+|                        | v-stepper-items           | 각 단계에서 나타내 컨텐츠를 감싸는 api                                                                                                                          |
+|                        | v-stepper-content         |  각 단계에서 나타내 컨텐츠를 담고있는 api                                                                                                                        |
+|       Subheaders       | v-subheader           | 목록의 섹션을 구분하는데 사용됨.                                                                                                                                    |
 |       **Table**        |                           |                                                                                                                                                                 |
-|    Data interators     | v-Aotocompletes           |                                                                                                                                                                 |
-|     Simple tables      | v-Aotocompletes           |                                                                                                                                                                 |
-|      Data tables       | v-Aotocompletes           |                                                                                                                                                                 |
+|    **Data tables**     | v-data-table           | 표 형식 데이터를 표시하는데 사용.                                                                                                                                  |
+|                        | v-data-table-header       | 표에서 나타낼 열의 제목                                                                                                                                      |
+|                        | v-data-footer           | 표 하단에 페이지네이션이나 넘김기능을 사용 할 수 있는 api                                                                                                      |
+|                        | v-edit-dialog           | 데이터를 클릭하면 해당 데이터만 수정 가능 할 수 있게 해주는 api                                                                                                      |
+|                        | v-simple-checkbox         | 다수의 행 or 단일 행만 체크해 수정과 같은 행위에 도움을 주는 api                                                                                                |
+|    Data interators     | v-data-iterator           | v-data-table의 기능을 대부분 공유함.                                                                                                                                                                 |
+|                        | v-data-footer           |                                                                                                                                                                 |
+|     Simple tables      | v-           |                                                                                                                                                                 |
+
 |          Tabs          | v-Aotocompletes           |                                                                                                                                                                 |
 |       Timelines        | v-Aotocompletes           |                                                                                                                                                                 |
 |        Tooltips        | v-Aotocompletes           |                                                                                                                                                                 |
@@ -103,15 +115,26 @@
 
 | Props | 설명                                                                                                                                                          |
 | :---: | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| absolute    |    절대적 위치를 사용할 때의 props 입니다ㅏ.                                                                                                            |
 | dense | 조밀한 소품은 경고의 높이를 줄여 심플하고 컴팩트한 스타일을 연출합니다.</br> 테두리 소품과 결합하면 스타일과 일관성을 유지하기 위해 테두리 두께가 줄어듭니다. |
-| tile  | border-radius를 제거합니다. .                                                                                                                                 |
+| tile  | border-radius를 제거합니다.                                                                                                                                   |
+| hover    |    마우스 오버가 가능한 옵션입니다.                                                                                                                        |
+| elevation     | 디스플레이 사이즈별로 덩어리를 놓을 수 있는 갯수를 조절할 수 있다.                                                                                    |
+| app    | v-app-bar, v-navigation-drawer 및 v-footer와 같은 다른 앱 구성 요소의 경계를 존중하고 겹치지 않습니다.                                                       |
+|     |                                                                                                                                 |
 
-| | Grouping || Grouping 2 || Not Grouped |
-| First Header | Second Header | Third Header | Forth Header | Fifth Header | Sixth Header |
-| -------------| :-----------: | -------------: | :----------: | :----------: | ---------------|
-| Tall Cell | _Long Cell_ || _Long Long Cell_ |||
-| ^^ | **Bold** | 1. first item | _Italic_ | 3. third item | + first point |\
-| ^^ | | 1. second item | | 1. forth item | + second point |
-| New section | More | Data | ... ------|||
-| And more | With an escaped \| || "Try 'quotes' in quotes " |||
-[Compicated table]
+## 이름으로 알기 어려운 Props
+
+|  API  | Props | 설명                                                                                                                                                          |
+| :---: | :---: | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|  v-rating    | clearble     | 현재값을 지울수 있는 기능입니다.                                                                                                                |
+|  v-rating    |  close-delay   | 컴포넌트가 종료전데 대기할 밀리초를 설정할 수 있다.                                                                                           |
+| v-skeleton-loader     |  boilerplate   | 재사용가능한 프로그램이라는 뜻. 이 API에서는 로딩 애니메이션 제거라는 기능으로 사용된다.                                             |
+|  v-sparkline    | gradient    | 그라데이션. 이 API에서는 라인의 색깔을 그라데이션으로 표현하기 위해서 사용한다.                                                                            |
+|  v-stepper-content    | step    | 몇 번째 단계에서 나타낼지 지정한다.                                                                                                           |
+|  v-subheader    |  inset   | 들여쓰기 추가                                                                                                                               |
+| v-data-tabl | caption | 표의 제목을 나타내기 위한 옵션                                                                                                            |
+|      |     |                                                                                                                                 |
+|      |     |                                                                                                                                 |
+|      |     |                                                                                                                                 |
+
